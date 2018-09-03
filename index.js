@@ -7,7 +7,8 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  console.log(shout("hello"));
+  string = "hello";
+  console.log(shout(string));
 }
 
 function logWhisper(string) {
@@ -16,6 +17,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
+  string = "hello"
   if (string === lowercase) {
   return "I can\'t hear you!";
   } else if (string === uppercase) {
